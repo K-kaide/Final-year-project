@@ -1,0 +1,59 @@
+.page-title {
+  margin-left: 5px;
+}
+
+.b-card-item {
+  height: 250px;
+  overflow-y: scroll;
+  scrollbar-width: 0;
+}
+
+.b-card-item .b-history-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.b-card-item .b-history-info .b-left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.b-card-item .b-history-info .b-left-content .b-info {
+  margin-left: 10px;
+}
+
+.b-card-item .b-history-info .b-left-content .b-info .b-name {
+  font-weight: bold;
+}
+
+.b-card-item .b-history-info .b-left-content .b-info .b-amount {
+  font-size: x-small;
+  text-align: start;
+}
+
+.b-card-item::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=budget.css.map */

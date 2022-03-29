@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.main {
+  min-height: 100vh;
+  min-width: 100vh;
+  overflow-x: hidden;
+  background: #f1f1f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .login-contain {
+  height: 90vh;
+  width: 70%;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(236, 236, 236, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(236, 236, 236, 0.3));
+  border-radius: 1rem;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .login-contain .left-side, .main .login-contain .right-side {
+  margin: 2rem 2rem;
+  height: 90%;
+  width: 100%;
+  /* 
+        display: contents; */
+}
+/*# sourceMappingURL=authentication.css.map */

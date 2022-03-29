@@ -1,0 +1,98 @@
+.exp-main{ 
+    /* height: 25rem; */
+    margin-top: 5px;
+    width: 45.5rem;
+    align-items: center;
+}
+
+.top{
+    color: #7C4CE0;
+    margin-top: 21px;
+    margin-bottom: 37px;
+    font-size: 24px;
+    font-weight: 600;
+}
+input.amt{
+    border: 0px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0px !important;
+}
+.tag-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: flex;
+}
+
+.tag-icon span {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.rotation {
+    transform: rotate(90deg);
+}
+
+.rotation-90 {
+    transform: rotate(0deg) !important;
+}
+
+.main-app-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-app-left-side {
+    width: 35%;
+    text-align: left;
+}
+input.amtHover{
+    border: 0px !important;
+    border-bottom: 1px solid grey !important;
+    padding-bottom: 15px !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    font-size: 30px !important;
+    border-radius: 0px !important;
+}
+
+.description-input {
+    width: 100%;
+    padding: 18px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #7C4CE0;
+    background-color: #DFDFDF;
+}
+
+.description-input:focus {
+    border: 1px solid #7C4CE0;
+    outline: none;
+}
+
+.calender{
+    padding: 20px;
+    /* height: 30px; */
+}
+/* .exp-contain{
+    height: 29vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(236, 236, 236, 0.3));
+    border-radius: 1rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

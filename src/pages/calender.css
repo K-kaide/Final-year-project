@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #7C4CE0;
+    margin-top: 21px;
+    margin-bottom: 46px;
+    font-size: 24px;
+}
+
+main {
+    text-align: center;
+}
+
+main input.income-input {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.main-app {
+    margin: 64px auto 0px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.main-app div.main-calender-app {
+    width: 50%;
+    position: center;
+    margin: 0px auto;
+}
+
+.main-calender-app {
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #F1F1F4;
+    
+}
+
+.btn {
+    padding: 15px 0px;
+    background-color: #7C4CE0;
+    color: #fff;
+    width: 55%;
+    margin-top: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-calender-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+.main-calender-month {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.calender-button {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px 4px 8px 8px
+}
+
+.calender-button:last-child {
+    padding: 8px 8px 8px 4px;
+    margin-left: 5px;
+}
+
+.main-calender-prev {
+    font-weight: bolder;
+}
+
+thead th, tbody td {
+    text-align: center;
+    font-size: 18px;
+    width: 20000px;
+}
+
+th {
+    border-bottom: 20px solid transparent;
+}
+
+td {
+    border-bottom: 20px solid transparent;
+}
+
+td:hover {
+    background-color: #7C4CE0;
+    border-bottom: 20px solid #F1F1F4;
+}
+
+.main-app-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

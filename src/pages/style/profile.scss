@@ -1,0 +1,44 @@
+$main-color: #7c4ce0;
+$main-font: calibri;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  input {
+    font-family: $main-font;
+    font-size: small;
+    border: none;
+    height: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    color: gray;
+    transition: all 0.1s ease-in-out;
+    border-radius: 10px;
+    &:focus {
+      outline: none;
+      border: none;
+    }
+    &:hover {
+      outline: 0.5px solid $main-color;
+      box-shadow: 2px 2px 9px -1px $main-color;
+    }
+  }
+  
+  #p-sub_butt {
+    background: $main-color;
+    font-family: $main-font;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+    &:hover {
+      box-shadow: 0.5px 0.5px 6px -1px black;
+      transform: translateY(-5px);
+    }
+  } 

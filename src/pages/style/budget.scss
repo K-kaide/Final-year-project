@@ -1,0 +1,43 @@
+.page-title{
+    margin-left: 5px;
+}
+
+.b-card-item {
+    height: 250px;
+    overflow-y: scroll;
+    scrollbar-width: 0;
+
+    .b-history-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        .b-left-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .b-info{
+                margin-left: 10px;
+
+                .b-name{
+                    font-weight: bold;
+                }
+                .b-amount{
+                    font-size: x-small;
+                    text-align: start;
+                }
+
+
+            }
+        }
+    }
+}
+ 
+.b-card-item::-webkit-scrollbar {
+   display: none;
+} 

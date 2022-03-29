@@ -1,0 +1,65 @@
+$main-color: #7c4ce0;
+$main-font: calibri;
+
+.fp-main {
+
+  .txt-Info {
+    margin-top: 40px;
+    margin: auto;
+    padding: 0.2rem 1rem;
+    width: 80%;
+    .txt-field {
+    font-family: $main-font;
+    font-style: normal;
+    font-size: small;
+    line-height: 20px;
+      h3 {
+        margin-top: 10px;
+        font-weight: 100;
+      }
+    }
+
+    form {
+      margin-top: 2rem;
+    }
+    input {
+      font-family: $main-font;
+      font-size: small;
+      display: block;
+      border: none;
+      height: 2rem;
+      width: 85%;
+      margin: inherit;
+      margin-bottom: 2rem;
+      padding: 0.2rem 1rem;
+      color: gray;
+      transition: all 0.1s ease-in-out;
+      border-radius: 10px;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+      &:hover {
+        outline: 0.5px solid $main-color;
+        box-shadow: 2px 2px 9px -1px $main-color;
+      }
+    }
+    
+
+    #send_butt {
+      width: 55%;
+      background: $main-color;
+      font-family: $main-font;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      transition: all 0.2s ease;
+      &:hover {
+        box-shadow: 0.5px 0.5px 6px -1px black;
+        transform: translateY(-5px);
+      }
+    }
+  }
+}

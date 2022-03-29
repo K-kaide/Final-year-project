@@ -1,0 +1,107 @@
+.main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_container .page-title {
+  color: #7C4CE0;
+  text-align: start;
+  margin-bottom: inherit;
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+.main_container .row-1 {
+  margin-bottom: 1.5rem;
+}
+
+.main_container .row-1 .row-1-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[3];
+      grid-template-columns: repeat(3, 100px);
+  grid-gap: 4.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_container .row-1 .row-1-items .text {
+  font-weight: bolder;
+  font-size: small;
+}
+
+.main_container .row-2 {
+  margin-bottom: 2.5rem;
+}
+
+.main_container .row-2 .row-2-tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.main_container .row-2 .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.main_container .row-2 .info .amount {
+  margin-left: 10px;
+  font-size: large;
+}
+
+.main_container .row-3 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: small;
+  /* margin-bottom: 5px; */
+}
+
+.main_container .row-3 .content {
+  font-size: small;
+}
+
+.main_container .row-3 .content .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.main_container .row-3 .content .chart-dig {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=dashboard.css.map */

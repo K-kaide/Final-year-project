@@ -1,0 +1,67 @@
+$main-color: #7c4ce0;
+$main-font: calibri;
+.wrapper {
+margin-top: 9rem;
+}
+
+.txt-field {
+  font-family: $main-font;
+  font-style: normal;
+  font-size: small;
+  line-height: 36px;
+}
+
+form {
+  margin-top: 2rem;
+}
+input {
+  font-family: $main-font;
+  font-size: small;
+  display: block;
+  border: none;
+  height: 2rem;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  color: gray;
+  transition: all 0.1s ease-in-out;
+  border-radius: 10px;
+  &:focus {
+    outline: none;
+    border: none;
+  }
+  &:hover {
+    outline: 0.5px solid $main-color;
+    box-shadow: 2px 2px 9px -1px $main-color;
+  }
+}
+
+.pss-forgot {
+  text-align: right;
+  width: 78%;
+  margin: auto;
+  font-family: $main-font;
+  font-size: small;
+  color: gray;
+  margin-bottom: 1.8rem;
+  #forgot-link {
+    color: $main-color;
+  }
+}
+
+#sub_butt {
+  width: 55%;
+  background: $main-color;
+  font-family: $main-font;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+  &:hover {
+    box-shadow: 0.5px 0.5px 6px -1px black;
+    transform: translateY(-5px);
+  }
+}

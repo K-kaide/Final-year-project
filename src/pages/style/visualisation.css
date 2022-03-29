@@ -1,0 +1,10 @@
+.visualisation-wrapper .top-content .chart-section {
+  margin-top: 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.visualisation-wrapper .buttom-content {
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=visualisation.css.map */

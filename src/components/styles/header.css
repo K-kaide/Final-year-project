@@ -1,0 +1,28 @@
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px;
+  margin: 10px 35px 10px 0px;
+}
+
+.header-wrapper .search-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-wrapper .search-section .notification, .header-wrapper .search-section .vertical-divider, .header-wrapper .search-section .profile-icon {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=header.css.map */

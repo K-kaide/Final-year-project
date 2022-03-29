@@ -1,0 +1,59 @@
+.history-card {
+  height: 33vh;
+}
+
+.card-item {
+  height: 430px;
+  overflow-y: scroll;
+  scrollbar-width: 0;
+}
+
+.card-item .history-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-item .history-info .left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item .history-info .left-content .info {
+  margin-left: 10px;
+}
+
+.card-item .history-info .left-content .info .tag-title {
+  font-weight: bold;
+}
+
+.card-item .history-info .left-content .info .time {
+  font-size: x-small;
+  text-align: start;
+}
+
+.card-item::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=DBhistory.css.map */

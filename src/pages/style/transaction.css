@@ -1,0 +1,72 @@
+.Transaction-main .headline .headline-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+.Transaction-main .item-section {
+  /* background-color: blue; */
+  height: 76vh;
+  overflow-y: scroll;
+  scrollbar-width: 0;
+}
+
+.Transaction-main .item-section .t-card-item {
+  margin-bottom: 30px;
+}
+
+.Transaction-main .item-section .t-card-item .item .transaction-cards {
+  /* background-color: blue; */
+  overflow-y: scroll;
+  scrollbar-width: 0;
+  padding-bottom: 10px;
+}
+
+.Transaction-main .item-section .t-card-item .item .transaction-cards .t-paper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  margin-top: 6px;
+}
+
+.Transaction-main .item-section .t-card-item .item .transaction-cards .t-paper-wrapper .t-category .icon {
+  margin-right: 5px;
+}
+
+.Transaction-main .item-section .t-card-item .item .transaction-cards .t-paper-wrapper .t-editing .edit-icon {
+  margin-right: 5px;
+}
+
+.Transaction-main .item-section .t-card-item .item .transaction-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.Transaction-main .item-section .t-card-item .item .t-day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 17.5px;
+}
+
+.Transaction-main .item-section::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=transaction.css.map */

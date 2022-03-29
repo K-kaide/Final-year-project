@@ -1,0 +1,42 @@
+.history-card {
+    //background-color: rgb(128, 128, 128);
+    height: 33vh;
+}
+
+ .card-item {
+    height: 430px;
+    overflow-y: scroll;
+    scrollbar-width: 0;
+
+    .history-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        .left-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .info{
+                margin-left: 10px;
+
+                .tag-title{
+                    font-weight: bold;
+                }
+                .time{
+                    font-size: x-small;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
+ 
+.card-item::-webkit-scrollbar {
+   display: none;
+} 

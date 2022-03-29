@@ -1,0 +1,55 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+input {
+  font-family: calibri;
+  font-size: small;
+  border: none;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  color: gray;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input:hover {
+  outline: 0.5px solid #7c4ce0;
+  -webkit-box-shadow: 2px 2px 9px -1px #7c4ce0;
+          box-shadow: 2px 2px 9px -1px #7c4ce0;
+}
+
+#p-sub_butt {
+  background: #7c4ce0;
+  font-family: calibri;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#p-sub_butt:hover {
+  -webkit-box-shadow: 0.5px 0.5px 6px -1px black;
+          box-shadow: 0.5px 0.5px 6px -1px black;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+/*# sourceMappingURL=profile.css.map */

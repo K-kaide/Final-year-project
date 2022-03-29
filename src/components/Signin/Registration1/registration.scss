@@ -1,0 +1,42 @@
+$main-color: #7c4ce0;
+$main-font: calibri;
+
+.wrapperR {
+
+  .regImage {
+    height: 50%;
+    width: 100%;
+    #reg-id {
+      width: 100%;
+    }
+  }
+
+  .regInfo {
+    margin-top: 40px;
+    .txt-field {
+      font-family: $main-font;
+      font-style: normal;
+      font-size: small;
+      line-height: 36px;
+      h3 {
+        font-weight: 100;
+      }
+    }
+
+    #reg_butt {
+      width: 55%;
+      background: $main-color;
+      font-family: $main-font;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      transition: all 0.2s ease;
+      &:hover {
+        box-shadow: 0.5px 0.5px 6px -1px black;
+        transform: translateY(-5px);
+      }
+    }
+  }
+}

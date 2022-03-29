@@ -1,0 +1,17 @@
+.header-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px 35px 10px 0px;
+
+   .search-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .notification,.vertical-divider,.profile-icon {
+            margin-left: 10px;
+        }
+
+    }
+}

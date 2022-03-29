@@ -1,0 +1,44 @@
+.wrapperR .regImage {
+  height: 50%;
+  width: 100%;
+}
+
+.wrapperR .regImage #reg-id {
+  width: 100%;
+}
+
+.wrapperR .regInfo {
+  margin-top: 40px;
+}
+
+.wrapperR .regInfo .txt-field {
+  font-family: calibri;
+  font-style: normal;
+  font-size: small;
+  line-height: 36px;
+}
+
+.wrapperR .regInfo .txt-field h3 {
+  font-weight: 100;
+}
+
+.wrapperR .regInfo #reg_butt {
+  width: 55%;
+  background: #7c4ce0;
+  font-family: calibri;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.wrapperR .regInfo #reg_butt:hover {
+  -webkit-box-shadow: 0.5px 0.5px 6px -1px black;
+          box-shadow: 0.5px 0.5px 6px -1px black;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+/*# sourceMappingURL=registration.css.map */
